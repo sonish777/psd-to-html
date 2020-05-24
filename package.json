@@ -4,8 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "homepage": "https://github.com/sonish777/psd-to-html",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
 }
